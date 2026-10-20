@@ -15,7 +15,7 @@ from .exceptions import (
 )
 from .signing import BanyacKeyMd5SignatureProvider, SignatureProvider
 
-DEFAULT_BASE_URL = "https://eu-api.70mai.com"
+DEFAULT_BASE_URL = "https://api.70mai.com"
 
 # Fixed channel id sent with every request, including unauthenticated ones
 # (userLoginPwd, getTs).
